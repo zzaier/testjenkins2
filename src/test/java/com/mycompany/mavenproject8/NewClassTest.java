@@ -49,8 +49,8 @@ public class NewClassTest {
         @Test
     public void testSommeMethod1() {
         int valeur1=5;
-        int valeur2=7;
-        int resultatReel=11;
+        int valeur2=5;
+        int resultatReel=10;
         int resultatRetourne=NewClass.somme(valeur1, valeur2);
         assertEquals(resultatReel, resultatRetourne);        
     }
@@ -68,8 +68,8 @@ public class NewClassTest {
         @Test
     public void testDifferenceMethod2() {
                 int valeur1=5;
-        int valeur2=7;
-        int resultatReel=2;
+        int valeur2=5;
+        int resultatReel=0;
         int resultatRetourne=NewClass.difference(valeur1, valeur2);
         assertEquals(resultatReel, resultatRetourne);
     }
